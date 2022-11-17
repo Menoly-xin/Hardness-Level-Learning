@@ -1,0 +1,81 @@
+[2022-10-11 20:46:42,421 INFO eval.py line 77 1223102] Namespace(base_size=2048, scales=[1.0], config='config.yaml', model_path='checkpoints/ckpt_best.pth', save_folder='checkpoints/results', names_path='../../vis_meta/cityscapes/cityscapesnames.mat', crop=False)
+[2022-10-11 20:46:42,424 INFO eval.py line 118 1223102] => creating model from 'checkpoints/ckpt_best.pth' ...
+[2022-10-11 20:46:56,354 INFO eval.py line 124 1223102] => load checkpoint[teacher_state]
+[2022-10-11 20:46:56,523 INFO eval.py line 129 1223102] Load Model Done!
+[2022-10-11 20:46:56,523 INFO eval.py line 249 1223102] >>>>>>>>>>>>>>>> Start Crop Evaluation >>>>>>>>>>>>>>>>
+/home/melony/miniconda3/envs/bytetrack/lib/python3.9/site-packages/torch/nn/functional.py:780: UserWarning: Note that order of the arguments: ceil_mode and return_indices will changeto match the args list in nn.MaxPool2d in a future release.
+  warnings.warn("Note that order of the arguments: ceil_mode and return_indices will change"
+[2022-10-11 20:47:06,075 INFO eval.py line 287 1223102] Test: [10/500] Data 0.487 (0.332) Batch 1.034 (0.955).
+[2022-10-11 20:47:15,095 INFO eval.py line 287 1223102] Test: [20/500] Data 0.333 (0.336) Batch 0.879 (0.929).
+[2022-10-11 20:47:24,092 INFO eval.py line 287 1223102] Test: [30/500] Data 0.330 (0.340) Batch 0.879 (0.919).
+[2022-10-11 20:47:33,145 INFO eval.py line 287 1223102] Test: [40/500] Data 0.327 (0.340) Batch 0.919 (0.916).
+[2022-10-11 20:47:42,546 INFO eval.py line 287 1223102] Test: [50/500] Data 0.381 (0.345) Batch 0.930 (0.920).
+[2022-10-11 20:47:52,367 INFO eval.py line 287 1223102] Test: [60/500] Data 0.342 (0.351) Batch 0.902 (0.931).
+[2022-10-11 20:48:01,486 INFO eval.py line 287 1223102] Test: [70/500] Data 0.372 (0.352) Batch 0.930 (0.928).
+[2022-10-11 20:48:10,319 INFO eval.py line 287 1223102] Test: [80/500] Data 0.321 (0.350) Batch 0.856 (0.922).
+[2022-10-11 20:48:18,862 INFO eval.py line 287 1223102] Test: [90/500] Data 0.302 (0.347) Batch 0.818 (0.915).
+[2022-10-11 20:48:27,913 INFO eval.py line 287 1223102] Test: [100/500] Data 0.335 (0.347) Batch 0.900 (0.914).
+[2022-10-11 20:48:37,174 INFO eval.py line 287 1223102] Test: [110/500] Data 0.338 (0.348) Batch 0.877 (0.915).
+[2022-10-11 20:48:46,047 INFO eval.py line 287 1223102] Test: [120/500] Data 0.342 (0.347) Batch 0.919 (0.913).
+[2022-10-11 20:48:54,839 INFO eval.py line 287 1223102] Test: [130/500] Data 0.316 (0.346) Batch 0.853 (0.910).
+[2022-10-11 20:49:03,677 INFO eval.py line 287 1223102] Test: [140/500] Data 0.325 (0.346) Batch 0.890 (0.908).
+[2022-10-11 20:49:12,699 INFO eval.py line 287 1223102] Test: [150/500] Data 0.350 (0.346) Batch 0.889 (0.908).
+[2022-10-11 20:49:21,690 INFO eval.py line 287 1223102] Test: [160/500] Data 0.340 (0.346) Batch 0.896 (0.907).
+[2022-10-11 20:49:30,567 INFO eval.py line 287 1223102] Test: [170/500] Data 0.344 (0.346) Batch 0.885 (0.906).
+[2022-10-11 20:49:39,453 INFO eval.py line 287 1223102] Test: [180/500] Data 0.331 (0.346) Batch 0.838 (0.905).
+[2022-10-11 20:49:48,370 INFO eval.py line 287 1223102] Test: [190/500] Data 0.335 (0.346) Batch 0.871 (0.904).
+[2022-10-11 20:49:57,154 INFO eval.py line 287 1223102] Test: [200/500] Data 0.344 (0.346) Batch 0.885 (0.903).
+[2022-10-11 20:50:05,865 INFO eval.py line 287 1223102] Test: [210/500] Data 0.351 (0.345) Batch 0.885 (0.902).
+[2022-10-11 20:50:14,731 INFO eval.py line 287 1223102] Test: [220/500] Data 0.358 (0.345) Batch 0.903 (0.901).
+[2022-10-11 20:50:23,744 INFO eval.py line 287 1223102] Test: [230/500] Data 0.342 (0.345) Batch 0.936 (0.901).
+[2022-10-11 20:50:32,966 INFO eval.py line 287 1223102] Test: [240/500] Data 0.344 (0.344) Batch 0.940 (0.902).
+[2022-10-11 20:50:41,894 INFO eval.py line 287 1223102] Test: [250/500] Data 0.344 (0.344) Batch 0.879 (0.901).
+[2022-10-11 20:50:50,686 INFO eval.py line 287 1223102] Test: [260/500] Data 0.339 (0.344) Batch 0.886 (0.901).
+[2022-10-11 20:50:59,667 INFO eval.py line 287 1223102] Test: [270/500] Data 0.333 (0.344) Batch 0.877 (0.901).
+[2022-10-11 20:51:08,382 INFO eval.py line 287 1223102] Test: [280/500] Data 0.334 (0.344) Batch 0.868 (0.899).
+[2022-10-11 20:51:17,154 INFO eval.py line 287 1223102] Test: [290/500] Data 0.326 (0.343) Batch 0.929 (0.899).
+[2022-10-11 20:51:26,117 INFO eval.py line 287 1223102] Test: [300/500] Data 0.324 (0.343) Batch 0.922 (0.899).
+[2022-10-11 20:51:34,997 INFO eval.py line 287 1223102] Test: [310/500] Data 0.412 (0.343) Batch 0.944 (0.898).
+[2022-10-11 20:51:43,756 INFO eval.py line 287 1223102] Test: [320/500] Data 0.336 (0.343) Batch 0.873 (0.898).
+[2022-10-11 20:51:52,375 INFO eval.py line 287 1223102] Test: [330/500] Data 0.323 (0.343) Batch 0.857 (0.897).
+[2022-10-11 20:52:01,191 INFO eval.py line 287 1223102] Test: [340/500] Data 0.353 (0.342) Batch 0.886 (0.896).
+[2022-10-11 20:52:10,171 INFO eval.py line 287 1223102] Test: [350/500] Data 0.327 (0.342) Batch 0.917 (0.896).
+[2022-10-11 20:52:19,472 INFO eval.py line 287 1223102] Test: [360/500] Data 0.338 (0.342) Batch 0.867 (0.897).
+[2022-10-11 20:52:28,313 INFO eval.py line 287 1223102] Test: [370/500] Data 0.317 (0.342) Batch 0.917 (0.897).
+[2022-10-11 20:52:37,244 INFO eval.py line 287 1223102] Test: [380/500] Data 0.326 (0.342) Batch 0.858 (0.897).
+[2022-10-11 20:52:46,129 INFO eval.py line 287 1223102] Test: [390/500] Data 0.328 (0.342) Batch 0.847 (0.896).
+[2022-10-11 20:52:54,789 INFO eval.py line 287 1223102] Test: [400/500] Data 0.330 (0.341) Batch 0.871 (0.896).
+[2022-10-11 20:53:03,639 INFO eval.py line 287 1223102] Test: [410/500] Data 0.346 (0.341) Batch 0.879 (0.895).
+[2022-10-11 20:53:12,463 INFO eval.py line 287 1223102] Test: [420/500] Data 0.323 (0.342) Batch 0.856 (0.895).
+[2022-10-11 20:53:21,121 INFO eval.py line 287 1223102] Test: [430/500] Data 0.326 (0.341) Batch 0.857 (0.894).
+[2022-10-11 20:53:29,922 INFO eval.py line 287 1223102] Test: [440/500] Data 0.354 (0.341) Batch 0.886 (0.894).
+[2022-10-11 20:53:38,570 INFO eval.py line 287 1223102] Test: [450/500] Data 0.318 (0.341) Batch 0.853 (0.893).
+[2022-10-11 20:53:47,128 INFO eval.py line 287 1223102] Test: [460/500] Data 0.321 (0.340) Batch 0.858 (0.893).
+[2022-10-11 20:53:55,735 INFO eval.py line 287 1223102] Test: [470/500] Data 0.315 (0.340) Batch 0.852 (0.892).
+[2022-10-11 20:54:04,914 INFO eval.py line 287 1223102] Test: [480/500] Data 0.321 (0.340) Batch 0.866 (0.892).
+[2022-10-11 20:54:13,895 INFO eval.py line 287 1223102] Test: [490/500] Data 0.324 (0.340) Batch 0.910 (0.893).
+[2022-10-11 20:54:22,652 INFO eval.py line 287 1223102] Test: [500/500] Data 0.312 (0.339) Batch 0.842 (0.892).
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [0] IoU 97.12
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [1] IoU 79.85
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [2] IoU 91.35
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [3] IoU 46.68
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [4] IoU 49.64
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [5] IoU 63.08
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [6] IoU 70.41
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [7] IoU 76.39
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [8] IoU 91.55
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [9] IoU 57.09
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [10] IoU 94.04
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [11] IoU 82.17
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [12] IoU 61.51
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [13] IoU 93.85
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [14] IoU 58.35
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [15] IoU 75.08
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [16] IoU 51.55
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [17] IoU 62.93
+[2022-10-11 20:54:22,963 INFO eval.py line 308 1223102]  * class [18] IoU 77.23
+[2022-10-11 20:54:22,963 INFO eval.py line 309 1223102]  * mIoU 72.62
+[2022-10-11 20:54:22,963 INFO eval.py line 310 1223102] <<<<<<<<<<<<<<<<< End Crop Evaluation <<<<<<<<<<<<<<<<<
+[Info] Load ImageNet pretrain from '/data/melony/workshop/resnet101.pth' 
+missing_keys:  [] 
+unexpected_keys:  ['fc.weight', 'fc.bias']
