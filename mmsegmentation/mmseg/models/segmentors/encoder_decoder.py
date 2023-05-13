@@ -60,6 +60,12 @@ class EncoderDecoder(BaseSegmentor):
             else:
                 self.auxiliary_head = builder.build_head(auxiliary_head)
 
+    def _init_prehaed(self, channels=(256,512,1024,2048)):
+        self.pred_0 = nn.Conv2d(channels[0], 19, 1)
+        self.pred_1 = nn.Conv2d(channels[1], 19, 1)
+        self.pred_2 = nn.Conv2d(channels[2], 19, 1)
+        self.pred_3 = nn.Conv2d(channels[3], 19, 1)
+
     def extract_feat(self, img):
         """Extract features from images."""
         x = self.backbone(img)
@@ -137,6 +143,8 @@ class EncoderDecoder(BaseSegmentor):
         """
 
         x = self.extract_feat(img)
+
+
 
         losses = dict()
 

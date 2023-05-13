@@ -101,6 +101,8 @@ Cityscapes: results are obtained by DeepLabv3+ with ResNet-101 backbone.
 |     [UniMatch](https://github.com/LiheYoung/UniMatch) (paper)      |   75.7   |   77.3   |   78.7   |    _     |
 |                         **UniMatch + HL**                          | **76.2** | **78.2** | **78.9** |    _     |
 
+Note: The results of UniMatch are obtained by the ORIGINAL VERSION (NOT CVPR2023).
+
 ## License
 This project is released under the [_**Apache 2.0**_](LICENSE) license.
 
