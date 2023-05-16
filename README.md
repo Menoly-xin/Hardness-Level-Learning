@@ -112,9 +112,13 @@ Thanks a lot for their great work!
 
 ## Citation
 ```bibtex
-@inproceedings{yang2018denseaspp,
-  title={Not All Pixels Are Equal: Learning Hardness Probability for Semantic Segmentation},
-  author={Xin Xiao, Daiguo Zhou, Jiagao Hu, Yi Hu and Yongchao Xu},
+@misc{xiao2023pixels,
+      title={Not All Pixels Are Equal: Learning Pixel Hardness for Semantic Segmentation}, 
+      author={Xin Xiao and Daiguo Zhou and Jiagao Hu and Yi Hu and Yongchao Xu},
+      year={2023},
+      eprint={2305.08462},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
