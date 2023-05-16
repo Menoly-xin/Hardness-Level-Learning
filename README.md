@@ -1,5 +1,5 @@
 # Not All Pixels Are Equal: Learning Hardness Probability for Semantic Segmentation 
-### [Paper](https://arxiv.org/abs/2108.07774)
+### [Paper](https://arxiv.org/abs/2305.08462)
 ## Official PyTorch Implementation
 Xin Xiao, Daiguo Zhou, Jiagao Hu, Yi Hu and [Yongchao Xu](https://sites.google.com/view/yongchaoxu)
 
