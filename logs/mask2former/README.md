@@ -1,6 +1,6 @@
-Mask2Former results are obtained by  directly using the HL map from PSPNet.
-
 ## ADE20K
+Mask2Former results are obtained by  directly using the HL map from PSPNet
+
 |   Method    |   Backbone    | Crop Size | mIoU (paper) |                                                                                                  mIoU (mmseg official)                                                                                                   | mIoU (ours, based on mmseg)  |
 |:-----------:|:-------------:|:---------:|:------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------:|
 | Mask2Former |    Swin-T     |  512x512  |     47.7     |                   [48.66](https://download.openmmlab.com/mmsegmentation/v0.5/mask2former/mask2former_swin-t_8xb2-160k_ade20k-512x512/mask2former_swin-t_8xb2-160k_ade20k-512x512_20221203_234230.json)                   | [49.67](20230725_165931.log) |
