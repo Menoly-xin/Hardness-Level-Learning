@@ -74,7 +74,9 @@ Note that you should replace ```/path/pspnet.pth``` with the path you store the 
 supposed to get **_80.65_** mIoU on val set. 
 
 ## Results
-Training logs can be found [_**here**_](logs/). Experiments are implemented on a device with 8 A100-40GB GPUs.
+Training logs can be found [_**here**_](logs/). Experiments are implemented on a device with 8 A100-40GB GPUs. By using the HL map collected from PSPNet, we achieve consistent improvement over the new paradigm of semantic segmentation, [_**Mask2Former**_](logs/mask2former/).
+
+
 
 ## Extensions
 ### 1. Domain generation semantic segmentation
